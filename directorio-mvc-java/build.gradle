@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'edu.universidad'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'App'
+        )
+    }
+}
